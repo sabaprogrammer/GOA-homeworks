@@ -3,7 +3,7 @@ from turtle import *
 
 #saxli
 width(7)
-speed(30)
+speed(5)
 color("green")
 forward(200)
 left(90)
