@@ -1,3 +1,4 @@
+#2 დავალება
 def check_student_score(score):
     if score == 10:
         print("კარგია, ასე გააგრძელე.")
@@ -12,3 +13,4 @@ def check_student_score(score):
 
 score = int(input("Enter your score: "))
 check_student_score(score)
+

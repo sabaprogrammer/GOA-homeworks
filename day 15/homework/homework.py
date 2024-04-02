@@ -1,4 +1,4 @@
-
+#1 დავალება
 def check_score(score):
     if score > 90 and score < 100:
         print("თქვენ დაგიფინანსდებათ სწავლა სრულიად.")
