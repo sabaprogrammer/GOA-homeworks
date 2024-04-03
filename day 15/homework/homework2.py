@@ -8,7 +8,7 @@ if score==10:
 elif score==8 or score==9:
     print("თქვენი შვილი ნიჭიერია, მაგრამ ზარმაცობს.")
 
-if score==5:
+elif score==5:
     print("თქვენი შვილი საშინლად სწავლობს.")
 
 elif score<5:
