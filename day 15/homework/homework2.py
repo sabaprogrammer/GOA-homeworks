@@ -1,16 +1,15 @@
-#2 დავალება
-def check_student_score(score):
-    if score == 10:
-        print("კარგია, ასე გააგრძელე.")
-    elif score == 8 or score == 9:
-        print("თქვენი შვილი ნიჭიერია, მაგრამ ზარმაცობს.")
-    elif score == 5:
-        print("თქვენი შვილი საშინლად სწავლობს.")
-    elif score < 5:
-        print("თქვენი შვილი გაგდებულია სკოლიდან, რადგან არ სწავლობს.")
-    
+# #2 დავალება
 
 
-score = int(input("Enter your score: "))
-check_student_score(score)
+score=int(input("Enter your grade:"))
+if score==10:
+    print("კარგია, ასე გააგრძელე.")
 
+elif score==8 or score==9:
+    print("თქვენი შვილი ნიჭიერია, მაგრამ ზარმაცობს.")
+
+if score==5:
+    print("თქვენი შვილი საშინლად სწავლობს.")
+
+elif score<5:
+    print("თქვენი შვილი გაგდებულია სკოლიდან, რადგან არ სწავლობს.")
