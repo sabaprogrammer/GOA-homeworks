@@ -5,10 +5,10 @@ name = "saba"
 surname = "chikvaidze"
 
 print(name)
-#სპრინტ ფუნქციას გადაეცემა ეკრანზე გამოსატანი ობიექტი
+#პრინტ ფუნქციას გადაეცემა ეკრანზე გამოსატანი ობიექტი
 name = "saba"  #ეს არის  str (string) ტიპის ცვლადი
 age = 15 #ეს არის int (integer) მთელი რიცხვი
-height = 180 #ეს არის float ტიპის ცვლადი (ათწილადი)
+height = 1.80 #ეს არის float ტიპის ცვლადი (ათწილადი)
 #boolean (bool) ტიპის ცვლადი
  
 knows_programming = True #true ან false

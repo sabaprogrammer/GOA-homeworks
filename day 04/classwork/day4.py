@@ -43,5 +43,5 @@
 
 3# 🌟 ცვლადის მნიშვნელობის განახლებას ცვლადის ხელახალი მინიჭება ეწოდება
 
-homework = module 1 quiz sololearn
-200 push up 
+# homework = module 1 quiz sololearn
+# 200 push up 

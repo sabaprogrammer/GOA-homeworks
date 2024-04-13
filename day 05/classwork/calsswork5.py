@@ -1,7 +1,7 @@
 # name = "saba"
 # surname = "chikvaidze"
 # age = 15
-# print(" hello, my name is " + name+ " " + (surname)  +", " str(age))
+# print(" hello, my name is " + name+ " " + surname  +", " str(age))
 
 # 🌟 შეცდომები კოდში ცნობილია როგორც შეცდომები
 

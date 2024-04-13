@@ -6,6 +6,3 @@
 
 float_num = 10.3
 print(type(float_num))
-age1 = input(enter your age:)
-age2 =
-age3 =

@@ -32,3 +32,4 @@ for i in range(1, 3):
       step = 2
       for i in(start, range_, step):
          print(i)
+
