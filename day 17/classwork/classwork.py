@@ -25,3 +25,7 @@ print(products[1] + products[2])
 nums = [1, 3 , 5, 6, 7, 8]
 for i in nums:
     print(i)
+
+products = ["milk", "bread", "oil", 12, 23, 41, 0.1, 0.5, 4.5, True, False]
+for i in products:
+    print(i)
