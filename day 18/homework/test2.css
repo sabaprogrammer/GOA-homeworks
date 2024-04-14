@@ -1,0 +1,15 @@
+button {
+  border: 5px;
+  border-radius: 16px;
+  background-color: yellow;
+}
+body {
+  background-color: orange;
+}
+p {
+  font-size: 100px;
+  color: yellow;
+}
+li {
+  font-size: 60px;
+}
