@@ -1,0 +1,37 @@
+p {
+  color: aquamarine;
+  text-align: center;
+}
+body {
+  background-color: aquamarine;
+}
+
+h1 {
+  color: blueviolet;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+a {
+  color: blue;
+  font-size: 20px;
+}
+button {
+  border: 3px;
+  border-radius: 16px;
+  background-color: blueviolet;
+  color: aquamarine;
+}
+img {
+  border-radius: 16px;
+}
+h2 {
+  color: blueviolet;
+}
+hr {
+  height: 15px;
+  color: blueviolet;
+}
