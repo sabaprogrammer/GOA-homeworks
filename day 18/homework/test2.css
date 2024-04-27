@@ -1,15 +1,57 @@
-button {
-  border: 5px;
-  border-radius: 16px;
-  background-color: yellow;
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+/* Basic styling */
 body {
-  background-color: orange;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
 }
-p {
-  font-size: 100px;
-  color: yellow;
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 20px;
 }
-li {
-  font-size: 60px;
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
