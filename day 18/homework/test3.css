@@ -1,0 +1,22 @@
+.sub_button {
+  background-color: red;
+  border: solid 2px red;
+  border-radius: 10px;
+  transition: opacity 1s;
+  transition: box-shadow 1s;
+  transition: transform 1s;
+}
+
+.sub_button:hover {
+  cursor: pointer;
+  width: 80px;
+  height: 20px;
+  opacity: 0.5;
+  box-shadow: 7px 5px 10px;
+  transform: rotate(360deg);
+}
+
+.sub_button:active {
+  background-color: gray;
+  border: solid 2px gray;
+}
