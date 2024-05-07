@@ -8,3 +8,4 @@ def check_number(num):
 
 number = int(input("enter a number: "))
 check_number(number)
+
