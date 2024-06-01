@@ -1,0 +1,34 @@
+/* text-transformation values
+  upper case - ადიდებს ყველა ასო ბგერას
+   lower case - აპატარავებს ყველა ასო ბგერას
+   capitalize - ადიდებს მხოლოდ პირველ ასოებს
+
+
+
+   text-decoration values
+   underline - ტექსტს უკეთებს ქვედა ხაზს
+   overline - ტექსტს უკეთებს ზედა ხაზს
+   line-through - ტექსტის შუაში უსვავს ხაზს
+   none -შლის ნებისმიერ text-decoration values
+
+
+   letter-spacing - გამოიყენება იმისთვის, რომ ასოები დაშორდეს ერთმანეთს
+   word-spacing - გამოიყენება იმისთვის, რომ სიტყვები დაშორდეს ერთმანეთს
+*/
+
+p {
+  font-size: medium;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 500;
+  font-style: oblique;
+  text-transform: capitalize;
+  text-decoration: underline;
+  text-shadow: 5px 10px 1px red, 6px 11px 1px blue, 7px 12px 1px green;
+  text-align: center;
+  line-height: 1.8;
+  letter-spacing: 3px;
+  opacity: 0.5;
+}
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,23 @@
+h1 {
+  text-align: center;
+}
+p {
+  font-size: medium;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 500;
+  font-style: oblique;
+  text-transform: capitalize;
+  text-decoration: underline;
+  text-shadow: 5px 10px 1px black, 6px 11px 1px white, 7px 12px 1px red;
+  text-align: center;
+  line-height: 1.8;
+  letter-spacing: 3px;
+  opacity: 0.5;
+}
+a {
+  text-decoration: none;
+}
+body {
+  color: aqua;
+  background-color: darkblue;
+}
