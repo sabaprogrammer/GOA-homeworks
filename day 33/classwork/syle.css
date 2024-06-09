@@ -1,0 +1,65 @@
+/* ul {
+  list-style-type: georgian;
+  list-style-position: outside;
+  position: relative;
+  left: 100px; */
+/* list-style-image: url(""); */
+/* list-style-type: none; */
+/* 1.list-style-type 
+     2.list-style-image
+    3.list-style-position */
+
+/*                1       2      3 */
+/* list-style: georgian url() inside; */
+/* 
+a {
+  text-decoration: dashed;
+  color: red;
+  background-color: white;
+  transition: 1s;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+  background-color: aqua;
+  letter-spacing: 2px;
+}
+
+/* a:active {
+  color: green;
+  letter-spacing: 2px;
+} */
+
+/* a:visited {
+  color: wheat;
+  letter-spacing: 5px;
+} */
+
+table {
+  border-collapse: collapse;
+  padding: 10px;
+  border: 1px solid aqua;
+}
+td,
+th {
+  text-align: center;
+  width: 100px;
+}
+/* tr:nth-child(1) {
+  background-color: blue;
+  color: brown;
+}
+tr:nth-child(2) {
+  background-color: aqua;
+  color: black;
+} */
+
+tr:nth-child(even) {
+  color: bisque;
+  background-color: blue;
+}
+tr:nth-child(odd) {
+  color: azure;
+  background-color: green;
+}

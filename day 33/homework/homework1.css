@@ -1,0 +1,9 @@
+ul {
+  text-align: center;
+  list-style-image: url("images/css.png");
+  list-style-position: inside;
+}
+
+h2 {
+  text-align: center;
+}

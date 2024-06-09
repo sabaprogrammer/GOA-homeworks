@@ -1,0 +1,44 @@
+div {
+  /* უკანა ფონის ფერი: სტაფილოსფერი */
+  background-color: orange;
+  /* სიგანე: 350px */
+  width: 350px;
+  /* სიმაღლე: 350px */
+  height: 350px;
+  /* ტექსტის შუაში მოთასვება */
+  text-align: center;
+  /* 1) border-width: 15px;
+    2)border-style: solid;
+    3)border-color: green; */
+
+  /*     1)    2)     3) */
+  /* border: 20px solid blue; */
+
+  /* გარსის რადიუსი */
+  border-radius: 50px;
+
+  /* ზედა მახრის გარსი, border-width: 10px boder-style: solid, border-color:black */
+  border-top: 10px solid black;
+
+  /* ქვედა მხარის გარსი border-width: 30px boder-style: dashed, border-color:green */
+  border-bottom: 30px dashed green;
+
+  /* გარსი მარცხენა მხარის border-width: 30px boder-style: double, border-color:green */
+  border-left: 30px double green;
+
+  /* გარსი მარჯვენა მხარის border-width: 13px boder-style: groove border-color:blueviolet*/
+  border-right: 13px groove blueviolet;
+  background-image: url("https://media.discordapp.net/attachments/1200742695967133696/1248944116906328065/9k.png?ex=66658159&is=66642fd9&hm=56a873dde212d38662bd6d4f4c8a9a05ff2526f4d0961099775cebc4f8f194b6&=&format=webp&quality=lossless");
+  background-repeat: repeat;
+  background-size: contain;
+}
+/* 
+body {
+  background-image: url("https://media.discordapp.net/attachments/1200742695967133696/1248944116906328065/9k.png?ex=66658159&is=66642fd9&hm=56a873dde212d38662bd6d4f4c8a9a05ff2526f4d0961099775cebc4f8f194b6&=&format=webp&quality=lossless");
+  background-repeat: repeat;
+} */
+
+.div {
+  background-position: center center;
+  background-size: cover;
+}

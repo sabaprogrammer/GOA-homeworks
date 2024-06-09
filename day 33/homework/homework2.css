@@ -1,0 +1,12 @@
+a {
+  text-decoration: dashed;
+  color: red;
+  background-color: white;
+  transition: 1s;
+}
+a:hover {
+  text-decoration: none;
+  color: black;
+  background-color: aqua;
+  letter-spacing: 2px;
+}
