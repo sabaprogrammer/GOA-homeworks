@@ -1,0 +1,6 @@
+.container.style2 > .wrapper > .inner {
+  --gutters: 2.5rem;
+  --padding-horizontal: Orem;
+  --padding-vertical: Ørem;
+  padding: var(--padding-vertical) var(--padding-horizontal);
+}
