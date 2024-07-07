@@ -1,0 +1,107 @@
+/* this will reset css and apply new properties */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* nav style */
+nav {
+  display: flex;
+  gap: 320px;
+  margin-top: 20px;
+}
+
+/* nav's list style*/
+nav .categories ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+/* nav's text style*/
+nav .categories ul li {
+  color: rgb(85, 85, 85);
+  text-transform: capitalize;
+}
+
+nav h1 {
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 1em;
+  padding: 10px;
+  padding-left: 50px;
+}
+nav h1 span {
+  font-weight: bolder;
+  padding-left: 7px;
+  color: #443a5c;
+}
+
+/* nav's button style */
+
+nav .categories .get_started {
+  width: 100px;
+  height: 30px;
+  background-color: #4b13c2;
+  border-radius: 20px;
+  text-transform: capitalize;
+  color: white;
+  font-weight: 700;
+  border: 0;
+  margin-top: -6px;
+}
+
+/* main content text*/
+main .main_content h1 {
+  font-size: 2.5em;
+  font-weight: bolder;
+  color: black;
+  text-transform: capitalize;
+  color: #443a5c;
+}
+
+main .main_content {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  margin-left: 40px;
+  gap: 40px;
+}
+
+main .main-content p {
+  color: rgb(37, 37, 37);
+  font-size: 1em;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+/* main content button*/
+
+main .main_content .button_name {
+  width: 120px;
+  height: 40px;
+  background-color: #721aff;
+  border: 0;
+  border-radius: 20px;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 30px;
+  margin-left: -2px;
+}
+
+/* main content img style*/
+
+main img {
+  width: 500px;
+  height: 450px;
+  margin-top: 5px;
+}
+
+main {
+  display: flex;
+  gap: 100px;
+}
