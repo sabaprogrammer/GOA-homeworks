@@ -1,0 +1,67 @@
+body {
+  background-color: lightblue;
+  margin: 0;
+}
+
+.bg-pattern {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1; /* Ensure background patterns are behind other content */
+}
+
+.profile-card {
+  background-color: #ffffff;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.profile-picture {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: relative; /* Ensure profile picture is positioned correctly */
+  z-index: 1; /* Ensure profile picture is above background pattern */
+}
+
+.profile-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.profile-location {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.stat {
+  font-size: 14px;
+}
+
+.card-pattern {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0; /* Ensure card pattern is behind profile picture */
+  margin-left: -1px; /* Adjust as needed */
+  margin-top: -80px; /* Adjust as needed */
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  width: 342px;
+}

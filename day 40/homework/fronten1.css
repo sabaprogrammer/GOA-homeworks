@@ -1,0 +1,100 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: hsl(212, 21%, 14%); /* Very dark blue for text */
+  background-color: hsl(30, 38%, 92%);
+}
+
+.container {
+  margin-top: 200px;
+  max-width: 720px; /* Desktop width */
+  margin-left: 600px;
+  padding: 0px; /* Adjust as needed */
+  background-color: white;
+  border-radius: 16px;
+}
+
+.content {
+  display: flex;
+  gap: 20px; /* Spacing between image and text */
+}
+
+.image img {
+  max-width: 60%;
+  height: auto;
+  display: block;
+  border-top-left-radius: 16px; /* Rounded corners for images */
+  border-bottom-left-radius: 16px;
+}
+
+.text {
+  flex: 1; /* Take remaining space */
+  color: hsl(228, 12%, 48%); /* Dark grayish blue for text */
+  margin-left: -140px;
+  margin-top: 30px;
+  font-size: 19px;
+}
+
+.text p {
+  margin-top: 0;
+  font-family: "Fraunces", serif; /* Font family for paragraph text */
+  font-weight: 700; /* Bold weight */
+  margin-left: -100px;
+}
+.text h1 {
+  font-weight: bolder;
+  font-family: Montserrat;
+  margin-left: -98px;
+  color: black;
+}
+
+h2 {
+  flex: 1; /* Take remaining space */
+  color: hsl(228, 12%, 48%); /* Dark grayish blue for text */
+  margin-left: -140px;
+  margin-top: 30px;
+  font-size: 19px;
+  margin-top: 40px;
+  font-family: "Fraunces", serif; /* Font family for paragraph text */
+  font-weight: 700; /* Bold weight */
+  margin-left: -100px;
+}
+h3 {
+  margin-left: -100px;
+  margin-top: 30px;
+  font-size: 35px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: green;
+}
+h4 {
+  margin-top: -44px;
+  margin-left: 90px;
+  text-decoration-line: line-through;
+  font-size: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+button {
+  margin-top: 50px;
+  background-color: green;
+  width: 260px;
+  margin-left: -65px;
+  height: 50px;
+  border-radius: 8px;
+  font-size: medium;
+  color: white;
+  background-image: url("cart.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
