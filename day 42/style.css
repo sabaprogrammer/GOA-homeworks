@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.parent {
+  width: 800px;
+  height: 600px;
+  border: 8px solid black;
+}
+.childs {
+  width: 140px;
+  height: 140px;
+  background: rgb(20, 189, 96);
+  border: 8px solid rgb(25, 145, 75);
+  color: rgb(89, 218, 14);
+  font-size: 3em;
+  text-align: center;
+}
+
+/* Flex! */
+
+/* flex-direction is used to align divs in X or Y axis */
+/* justify-content is to align divs in X axis, we can align it together or separate */
+
+.parent {
+  display: flex;
+  /* flex-direction: row; */
+  /* justify-content: space-between;
+  align-items: center; */
+  flex-wrap: wrap;
+  /* gap: 21px; */
+  row-gap: 82px;
+  column-gap: 21px;
+}
