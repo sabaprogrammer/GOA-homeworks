@@ -48,7 +48,7 @@ body {
   flex-direction: row;
   font-size: 25px;
   align-items: flex-end;
-  color: white;
+  color: rgb(97, 18, 18);
   font-weight: 900;
   flex-wrap: wrap;
   column-gap: 30px;

@@ -1,0 +1,281 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.image {
+  height: 70px;
+  margin-left: 20px;
+  margin-bottom: 130px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+.parent {
+  width: 230px;
+  height: 350px;
+  margin-top: 150px;
+  margin-left: 200px;
+  display: flex;
+  flex-direction: row;
+  font-size: 25px;
+  align-items: flex-end;
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  border: hsl(246, 80%, 60%) 5px;
+  background-color: hsl(246, 80%, 60%);
+  border-radius: 10px;
+}
+.child-2 {
+  margin-bottom: 80px;
+  margin-left: -95px;
+}
+.child-3 {
+  position: relative;
+  font-family: rubik;
+  font-size: 19px;
+  margin-left: 23px;
+  font-weight: lighter;
+  top: -80px;
+}
+.parent-1 {
+  width: 230px;
+  height: 150px;
+  margin-top: -20px;
+  margin-left: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  column-gap: 30px;
+  border: hsl(246, 80%, 60%) 5px;
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 10px;
+}
+body {
+  background-color: hsl(226, 43%, 10%);
+}
+.child-4 {
+  margin-left: 20px;
+  color: dimgray;
+}
+.child-5 {
+  margin-left: 20px;
+}
+.child-6 {
+  margin-left: 20px;
+  color: dimgray;
+}
+.parent-2 {
+  width: 230px;
+  height: 180px;
+  margin-top: -490px;
+  margin-left: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  column-gap: 30px;
+  border: hsl(246, 80%, 60%) 5px;
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 10px;
+}
+.orange {
+  border-radius: 10px;
+  position: relative;
+  top: -480px;
+  left: 500px;
+  width: 230px;
+  background-color: rgb(255, 146, 106);
+  height: 40px;
+}
+.child-7 {
+  position: relative;
+  left: 20px;
+  top: 10px;
+}
+.child-8 {
+  position: relative;
+  left: 200px;
+  top: -30px;
+}
+.child-9 {
+  position: relative;
+  left: 20px;
+  font-size: 50px;
+}
+.child-10 {
+  position: relative;
+  left: 20px;
+  font-size: 14px;
+  color: dimgray;
+}
+.managment {
+  height: 40px;
+  position: relative;
+  left: 180px;
+}
+.parent-3 {
+  width: 230px;
+  height: 180px;
+  margin-top: 50px;
+  margin-left: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  column-gap: 30px;
+  border: hsl(246, 80%, 60%) 5px;
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 10px;
+}
+.green {
+  border-radius: 10px;
+  position: relative;
+  top: 60px;
+  left: 500px;
+  width: 230px;
+  background-color: rgb(43, 216, 58);
+  height: 40px;
+}
+.run {
+  height: 40px;
+  position: relative;
+  left: 160px;
+}
+
+.parent-4 {
+  width: 230px;
+  height: 180px;
+  margin-top: -490px;
+  margin-left: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  column-gap: 30px;
+  border: hsl(246, 80%, 60%) 5px;
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 10px;
+}
+
+.blue {
+  border-radius: 10px;
+  position: relative;
+  top: -480px;
+  left: 800px;
+  width: 230px;
+  background-color: rgb(39, 180, 223);
+  height: 40px;
+}
+.game {
+  height: 40px;
+  position: relative;
+  left: 160px;
+}
+
+.parent-5 {
+  width: 230px;
+  height: 180px;
+  margin-top: 50px;
+  margin-left: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  column-gap: 30px;
+  border: hsl(246, 80%, 60%) 5px;
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 10px;
+}
+.social {
+  height: 40px;
+  position: relative;
+  left: 180px;
+}
+
+.purple {
+  border-radius: 10px;
+  position: relative;
+  left: 800px;
+  top: 60px;
+  width: 230px;
+  background-color: rgb(128, 15, 180);
+  height: 40px;
+}
+
+.parent-6 {
+  width: 230px;
+  height: 180px;
+  margin-top: -490px;
+  margin-left: 1100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  column-gap: 30px;
+  border: hsl(246, 80%, 60%) 5px;
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 10px;
+}
+
+.red {
+  border-radius: 10px;
+  position: relative;
+  left: 1100px;
+  top: -480px;
+  width: 230px;
+  background-color: rgb(180, 15, 15);
+  height: 40px;
+}
+.book {
+  height: 40px;
+  position: relative;
+  left: 180px;
+}
+
+.parent-7 {
+  width: 230px;
+  height: 180px;
+  margin-top: 50px;
+  margin-left: 1100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  column-gap: 30px;
+  border: hsl(246, 80%, 60%) 5px;
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 10px;
+}
+
+.yellow {
+  border-radius: 10px;
+  position: relative;
+  left: 1100px;
+  top: 60px;
+  width: 230px;
+  background-color: rgb(248, 245, 33);
+  height: 40px;
+}
+
+.heart {
+  height: 40px;
+  position: relative;
+  left: 180px;
+}
