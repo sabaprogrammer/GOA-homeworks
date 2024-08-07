@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-areas:
+    "sidebar header header section1"
+    "sidebar section2 section3 nav"
+    "sidebar section4 section5 nav";
+  grid-template-columns: 1fr 4fr 4fr;
+  grid-template-rows: auto 1fr 1fr auto;
+  height: 100vh;
+}
+
+.header {
+  grid-area: header;
+  background-color: greenyellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border: 2px solid white;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background-color: greenyellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border: 2px solid white;
+}
+
+.section1 {
+  grid-area: section1;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border: 2px solid white;
+}
+
+.section2 {
+  grid-area: section2;
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border: 2px solid white;
+}
+
+.section3 {
+  grid-area: section3;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border: 2px solid white;
+}
+
+.section4 {
+  grid-area: section4;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border: 2px solid white;
+}
+
+.nav {
+  grid-area: nav;
+  background-color: greenyellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border: 2px solid white;
+}
+
+.section5 {
+  grid-area: section5;
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border: 2px solid white;
+}
