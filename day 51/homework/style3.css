@@ -1,0 +1,23 @@
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.text {
+  font-size: 24px;
+  color: black;
+  animation: fadeInOut 6s linear 0s 1;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f3f4f6; /* Tailwind gray-100 */
+}
