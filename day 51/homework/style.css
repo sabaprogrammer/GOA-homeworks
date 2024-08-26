@@ -1,0 +1,89 @@
+.start {
+  transform: translate(1300px, -940px);
+  font-family: "Times New Roman", Times, serif;
+}
+.start2 {
+  transform: translate(230px, -60px);
+  color: rgb(81, 23, 136);
+  font-family: "Times New Roman", Times, serif;
+}
+.end {
+  width: 635px;
+  height: 800px;
+  transform: translate(980px, -950px);
+  font-family: "Times New Roman", Times, serif;
+}
+.son_1 {
+  font-size: 22px;
+  font-family: "Times New Roman", Times, serif;
+}
+.son_2 {
+  transform: translate(180px, -80px);
+  font-family: "Times New Roman", Times, serif;
+}
+.img_2 {
+  width: 460px;
+  height: 70px;
+}
+.son_3 {
+  transform: translateY(-100px);
+  font-family: "Times New Roman", Times, serif;
+}
+.son_4 {
+  width: 600px;
+  height: 65px;
+  transform: translate(0px, -40px);
+  font-size: 18px;
+  border-radius: 6px;
+  font-family: "Times New Roman", Times, serif;
+}
+.son_5 {
+  width: 600px;
+  height: 65px;
+  transform: translate(0px, -20px);
+  font-size: 18px;
+  border-radius: 6px;
+  font-family: "Times New Roman", Times, serif;
+}
+.son_6 {
+  width: 600px;
+  height: 65px;
+  transform: translate(0px, 0px);
+  font-size: 18px;
+  border-radius: 6px;
+  font-family: "Times New Roman", Times, serif;
+}
+.son_7 {
+  color: rgb(81, 23, 136);
+  text-decoration: underline;
+  transform: translate(520px, -63px);
+  font-family: "Times New Roman", Times, serif;
+}
+.son_8 {
+  transform: translate(0px, -40px);
+  font-family: "Times New Roman", Times, serif;
+}
+
+.son_9 {
+  width: 600px;
+  height: 65px;
+  transform: translate(0px, -20px);
+  font-size: 18px;
+  border-radius: 6px;
+  font-family: "Times New Roman", Times, serif;
+}
+.son_10 {
+  text-align: center;
+  transform: translate(0px, -10px);
+  font-family: "Times New Roman", Times, serif;
+}
+.son_11 {
+  width: 610px;
+  height: 65px;
+  background-color: rgb(81, 23, 136);
+  color: white;
+  border-radius: 6px;
+  font-size: 18px;
+  border: 0px;
+  font-family: "Times New Roman", Times, serif;
+}
