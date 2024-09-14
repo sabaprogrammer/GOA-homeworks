@@ -1,0 +1,113 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: hsl(225, 100%, 94%);
+}
+
+.container {
+  max-width: 400px; /* Adjust as needed */
+  background-color: white;
+  border-radius: 16px;
+  overflow: hidden; /* Ensure rounded corners are smooth */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for depth */
+}
+
+.header {
+  background-color: hsl(0, 0%, 100%); /* Bright blue */
+  padding: 20px;
+}
+
+.header {
+  width: 400px;
+  margin-top: -20px;
+  margin-left: -20px;
+}
+
+.content {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: hsl(223, 47%, 23%); /* Dark blue */
+  margin-bottom: 10px;
+}
+
+p {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: hsl(224, 23%, 55%); /* Desaturated blue */
+  margin-bottom: 20px;
+}
+
+.plan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.plan h2 {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: hsl(223, 47%, 23%); /* Dark blue */
+  margin-left: 60px;
+}
+
+.plan p {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: hsl(224, 23%, 55%); /* Desaturated blue */
+  margin-top: -20px;
+  margin-left: 60px;
+}
+
+.change-plan {
+  background-color: hsl(0, 0%, 100%); /* Bright blue */
+  color: hsl(245, 75%, 52%); /* Pale blue */
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: underline;
+  margin-top: 50px;
+}
+
+.cancel-order,
+.proceed-to-payment {
+  background-color: hsl(245, 75%, 52%); /* Bright blue */
+  color: hsl(0, 0%, 100%); /* Pale blue */
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 350px;
+}
+
+.cancel-order {
+  background-color: hsl(0, 0%, 100%); /* Desaturated blue */
+  color: hsl(224, 23%, 55%); /* Pale blue */
+  width: 350px;
+}
+.icon-music {
+  width: 50px; /* Adjust size as needed */
+  height: auto;
+  margin-top: -80px;
+  margin-left: -300px;
+}
