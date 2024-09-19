@@ -1,0 +1,97 @@
+.mom {
+  width: 400px;
+  height: 600px;
+  transform: translate(550px, 100px);
+  border-radius: 8px;
+  background-color: hsl(0, 0%, 12%);
+}
+.son_1 {
+  transform: translate(150px, 20px);
+}
+.img {
+  border-radius: 50%;
+  width: 90px;
+}
+body {
+  background-color: hsl(0, 0%, 8%);
+}
+.son_2 {
+  transform: translate(85px, 20px);
+  color: white;
+}
+.son_3 {
+  transform: translate(85px, 20px);
+  font-size: 13px;
+  color: hsl(75, 94%, 57%);
+}
+.son_4 {
+  transform: translate(36px, 20px);
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.671);
+}
+.son_5 {
+  width: 320px;
+  height: 40px;
+  transform: translate(0px, 20px);
+  border-radius: 8px;
+  background-color: hsl(0, 0%, 20%);
+  color: white;
+  font-size: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.son_6 {
+  width: 320px;
+  height: 40px;
+  transform: translate(0px, 20px);
+  border-radius: 8px;
+  background-color: hsl(0, 0%, 20%);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 11px;
+}
+.son_7 {
+  width: 320px;
+  height: 40px;
+  transform: translate(0px, 20px);
+  border-radius: 8px;
+  background-color: hsl(0, 0%, 20%);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 11px;
+}
+.son_8 {
+  width: 320px;
+  height: 40px;
+  transform: translate(0px, 20px);
+  border-radius: 8px;
+  background-color: hsl(0, 0%, 20%);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 11px;
+}
+.son_9 {
+  width: 320px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: hsl(0, 0%, 20%);
+  transform: translate(0px, 20px);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 11px;
+}
+.done {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-direction: column;
+}
