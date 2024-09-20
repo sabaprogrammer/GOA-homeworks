@@ -1,0 +1,135 @@
+.son_3 {
+  width: 350px;
+  height: 200px;
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 7px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  transform: translate(175px, 100px);
+}
+#one {
+  font-size: 18px;
+  transform: translate(80px, -25px);
+  color: white;
+}
+#two {
+  font-size: 18px;
+  transform: translate(80px, -35px);
+  color: hsl(333, 80%, 67%);
+  font-family: Arial, Helvetica, sans-serif;
+}
+#three {
+  font-size: 15px;
+  transform: translate(30px, -15px);
+  color: white;
+}
+#img_1 {
+  width: 35px;
+  border-radius: 50%;
+  transform: translate(20px, 30px);
+}
+.mom {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: hsl(300, 24%, 96%);
+}
+.son_4 {
+  width: 350px;
+  height: 200px;
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 7px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  transform: translate(575px, -80px);
+}
+#four {
+  font-size: 18px;
+  transform: translate(80px, -25px);
+  color: white;
+}
+#five {
+  font-size: 18px;
+  transform: translate(80px, -35px);
+  color: hsl(333, 80%, 67%);
+  font-family: Arial, Helvetica, sans-serif;
+}
+#six {
+  font-size: 15px;
+  transform: translate(30px, -15px);
+  color: white;
+}
+#img_2 {
+  width: 35px;
+  border-radius: 50%;
+  transform: translate(20px, 30px);
+}
+.son_5 {
+  width: 350px;
+  height: 200px;
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 7px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  transform: translate(975px, -250px);
+}
+#seven {
+  font-size: 18px;
+  transform: translate(80px, -25px);
+  color: white;
+}
+#eight {
+  font-size: 18px;
+  transform: translate(80px, -35px);
+  color: hsl(333, 80%, 67%);
+  font-family: Arial, Helvetica, sans-serif;
+}
+#nine {
+  font-size: 15px;
+  transform: translate(30px, -15px);
+  color: white;
+}
+#img_3 {
+  width: 35px;
+  border-radius: 50%;
+  transform: translate(20px, 30px);
+}
+.son_1 {
+  color: hsl(300, 43%, 22%);
+  transform: translate(175px, 50px);
+  font-weight: 900;
+  font-size: 25px;
+}
+.son_2 {
+  transform: translate(175px, 40px);
+  font-size: 19px;
+  font-weight: 100;
+  color: hsla(0, 0%, 0%, 0.582);
+}
+body {
+  background-color: hsl(300, 24%, 96%);
+  color: hsl(300, 24%, 96%);
+}
+.son_6 {
+  transform: translate(850px, -780px);
+}
+.son_7 {
+  transform: translate(890px, -760px);
+}
+.son_8 {
+  transform: translate(930px, -740px);
+}
+.son_9 {
+  transform: translate(980px, -862px);
+  color: hsl(300, 43%, 22%);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.son_10 {
+  color: hsl(300, 43%, 22%);
+  transform: translate(1020px, -862px);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.son_11 {
+  color: hsl(300, 43%, 22%);
+  transform: translate(1070px, -860px);
+  font-family: Arial, Helvetica, sans-serif;
+}
