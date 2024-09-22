@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <style>
+        #myText {
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <p id="myText">just text</p>
+    <button onclick="changeColor()">color changer</button>
+
+    <script>
+        function changeColor() {
+            const textElement = document.getElementById('myText');
+            textElement.style.color = 'blue'; 
+        }
+    </script>
+        <style>
+            .growing-text {
+                font-size: 16px;
+                transition: font-size 0.5s;
+            }
+    
+            .growing-text:hover {
+                font-size: 24px;
+            }
+        </style>
+
+        <h1 class="growing-text">გსურთ ტექსტის გაზრდა?</h1>
+        <p class="growing-text">ახლოს მიიტანეთ მაუსი, რომ გადიდდეს ტექსტი.</p>
+
+        <div id="myText">ეს არის ტექსტი, რომელიც დაიხურება და მოგვიანებით გამოჩნდება.</div>
+        <button id="toggleButton">გამოიყვანე/დამალე</button>
+        
+        <script>
+            const myText = document.getElementById('myText');
+            const toggleButton = document.getElementById('toggleButton');
+        
+            toggleButton.addEventListener('click', () => {
+                if (myText.style.display === 'none') {
+                    myText.style.display = 'block'; // ტექსტი გამოჩნდება
+                } else {
+                    myText.style.display = 'none'; // ტექსტი დაიხურება
+                }
+            });
+        </script>
+        
+  </body>
+</html>

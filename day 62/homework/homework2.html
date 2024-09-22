@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script src="script2.js"></script>
+    <div id="myText">
+      ეს არის ტექსტი, რომელიც დაიხურება და მოგვიანებით გამოჩნდება.
+    </div>
+    <button id="toggleButton">გამოიყვანე/დამალე</button>
+
+    <script>
+      const myText = document.getElementById("myText");
+      const toggleButton = document.getElementById("toggleButton");
+
+      toggleButton.addEventListener("click", () => {
+        if (myText.style.display === "none") {
+          myText.style.display = "block";
+        } else {
+          myText.style.display = "none";
+        }
+      });
+    </script>
+  </body>
+</html>
