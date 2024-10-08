@@ -1,0 +1,220 @@
+body {
+  font-family: "DM Sans", sans-serif;
+  font-size: 36px;
+  letter-spacing: -3px;
+  line-height: 0.8;
+  letter-spacing: 2px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.mom {
+  width: 1600px;
+  height: 900px;
+  transform: translate(200px, 0px);
+}
+.son_1 {
+  border: 1px solid rgb(255, 255, 255);
+  width: 250px;
+  height: 400px;
+  transform: translate(120px, 30px);
+  border-radius: 16px;
+  background-color: hsl(31, 66%, 93%);
+  text-align: left;
+}
+.nos_1 {
+  margin-left: 20px;
+  font-weight: 500;
+  margin-top: 50px;
+}
+.dtr_1 {
+  margin-left: 20px;
+  color: hsl(256, 67%, 59%);
+  text-decoration: italic;
+  transform: translate(0px, -30px);
+}
+.img_1 {
+  width: 185px;
+  margin-left: 18px;
+  transform: translate(0px, -35px);
+}
+.son_2 {
+  border: 1px solid rgb(255, 255, 255);
+  width: 250px;
+  height: 400px;
+  transform: translate(110px, 50px);
+  border-radius: 16px;
+  background-color: hsl(39, 100%, 71%);
+  text-align: left;
+}
+.nos_2 {
+  margin-left: 20px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.img_2 {
+  width: 220px;
+  margin-left: 18px;
+  transform: translate(0px, 10px);
+}
+.son_3 {
+  border: 1px solid rgb(255, 255, 255);
+  width: 570px;
+  height: 300px;
+  border-radius: 16px;
+  background-color: hsl(256, 67%, 59%);
+  text-align: center;
+  transform: translate(420px, -770px);
+  font-size: 58px;
+  font-weight: 500;
+  color: white;
+}
+.nos_3 {
+  margin-left: 20px;
+  font-weight: 500;
+  margin-top: 50px;
+}
+.highlight {
+  color: hsl(39, 100%, 71%);
+}
+.img_3 {
+  width: 220px;
+  position: relative;
+  top: -40px;
+}
+.nos_4 {
+  margin-left: 20px;
+  font-weight: 500;
+  margin-top: -35px;
+  font-size: 21px;
+  letter-spacing: 0px;
+  color: rgba(240, 248, 255, 0.671);
+}
+.son_4 {
+  border: 1px solid rgb(255, 255, 255);
+  width: 250px;
+  height: 480px;
+  border-radius: 16px;
+  background-color: hsl(0, 0%, 100%);
+  text-align: left;
+  transform: translate(440px, -735px);
+  font-size: 28px;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+}
+.img_4 {
+  display: flex;
+  width: 335px;
+  clip-path: polygon(0 0, 75% 0, 75% 100%, 0 100%);
+  border-radius: 16px;
+}
+.img_5 {
+  width: 220px;
+  transform: translate(15px, 0px);
+}
+.nos_5 {
+  font-weight: 700;
+  margin-top: 5px;
+  font-size: 27px;
+  letter-spacing: 1px;
+  transform: translate(0px, 10px);
+}
+.nos_6 {
+  font-weight: 700;
+  margin-top: 5px;
+  font-size: 52px;
+  letter-spacing: 1px;
+  transform: translate(0px, 40px);
+}
+.nos_7 {
+  font-weight: 700;
+  margin-top: 5px;
+  font-size: 21px;
+  letter-spacing: 1px;
+  transform: translate(0px, 0px);
+}
+.son_5 {
+  border: 1px solid rgb(255, 255, 255);
+  width: 250px;
+  height: 230px;
+  border-radius: 16px;
+  background-color: hsl(0, 0%, 100%);
+  text-align: left;
+  transform: translate(740px, -1215px);
+  font-size: 28px;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  overflow: hidden;
+  background-color: hsl(39, 100%, 71%);
+}
+.img_6 {
+  width: 210px;
+  transform: translate(20px, -10px);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+.nos_8 {
+  line-height: 0.8;
+  margin-left: 20px;
+  font-weight: 700;
+}
+.son_6 {
+  border: 1px solid rgb(255, 254, 254);
+  width: 540px;
+  height: 230px;
+  border-radius: 16px;
+  background-color: hsl(0, 0%, 100%);
+  text-align: left;
+  transform: translate(740px, -1195px);
+  font-size: 34px;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  overflow: hidden;
+  background-color: hsl(256, 67%, 59%);
+}
+.img_7 {
+  width: 230px;
+  transform: translate(20px, 20px);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+.nos_9 {
+  line-height: 0.8;
+  margin-left: 20px;
+  font-weight: 700;
+  color: white;
+  transform: translate(230px, -170px);
+}
+.son_7 {
+  border: 1px solid rgb(255, 255, 255);
+  width: 250px;
+  height: 570px;
+  border-radius: 16px;
+  background-color: hsl(254, 88%, 90%);
+  text-align: left;
+  transform: translate(1030px, -2020px);
+  font-size: 28px;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  overflow: hidden;
+}
+.img_8 {
+  width: 350px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  transform: translate(30px);
+}
+.nos_11 {
+  font-size: 18px;
+  text-align: left;
+  transform: translate(30px, 20px);
+  letter-spacing: 1px;
+}
+.nos_10 {
+  font-size: 30px;
+  text-align: left;
+  transform: translate(30px);
+  font-weight: 500;
+  letter-spacing: 2px;
+}
